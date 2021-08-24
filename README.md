@@ -1,2 +1,2 @@
-# Factorial
-An application that can calculate factorial of numbers
+# Factorial Calculator
+An application that can calculate factorial of numbers.
