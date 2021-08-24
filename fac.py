@@ -3,17 +3,14 @@ import math
 
 window = Tk()
 
+#Function
+
 def factorial():
-
-    
-
     number = math.factorial(float(value_0.get()))
-    
-
-    
-
     t1.delete("1.0",END)
     t1.insert(END,number)
+    
+#UI
 
 e1 = Label(window,text="Enter your number : ")
 
@@ -40,11 +37,7 @@ txt = Label(window, text="Dedicated to Virgil_H06" , font="BRUSHSCI.TTF" , ancho
 
 txt.grid(column=1)
 
-
-
-
-
-
+#Run
 
 window.title('Factorial Calculator')
 window.iconbitmap("i.ico")
